@@ -9,7 +9,7 @@ Esta is a gradually typed, interpreted language and virtual machine implementati
 _Interpreted_: `.est` source code is compiled into byte code (simple assembly instructions)
                 and run on the Esta VM.
 
-_Gradually Typed_: The Esta Interpreter can infer variable type (e.g.):
+_Inferred_: The Esta Interpreter can infer variable type (e.g.):
 ```c
 var a: num = 4;     // Explicitly declare a is an int
 
